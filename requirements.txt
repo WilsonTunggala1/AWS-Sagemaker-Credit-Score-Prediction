@@ -1,9 +1,1 @@
-streamlit
-pandas
-numpy
-scikit-learn==1.7.2
-joblib
-xgboost
-lightgbm
-catboost
-mlflow
+scikit-learn==1.4.2
