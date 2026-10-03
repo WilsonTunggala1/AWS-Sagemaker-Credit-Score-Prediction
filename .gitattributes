@@ -1,0 +1,14 @@
+# Default behavior
+* text=auto
+
+# Shell scripts must use Unix line endings
+*.sh text eol=lf
+
+# Python files
+*.py text eol=lf
+
+# Jupyter notebooks
+*.ipynb text eol=lf
+
+# Markdown
+*.md text eol=lf

@@ -1,0 +1,84 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# =========================
+# Virtual Environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment Variables / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# AWS local credentials
+.aws/
+credentials
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Machine Learning Artifacts
+# =========================
+*.joblib
+*.pkl
+*.pickle
+
+# Packaged SageMaker model
+model.tar
+model.tar.gz
+
+# =========================
+# Generated Pipeline Outputs
+# =========================
+ingested/
+train/
+test/
+eval/
+
+# =========================
+# Testing / Python Tools
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Python Packaging
+# =========================
+build/
+dist/
+*.egg-info/
